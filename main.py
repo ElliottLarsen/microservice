@@ -3,6 +3,11 @@ from flask import request
 from flask import jsonify
 
 app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "Please enter prefix, project and ticket as query parameters to http://127.0.0.1:5000/data"
+
 @app.route('/data')
 def get_url():
     prefix = request.args.get('prefix')
