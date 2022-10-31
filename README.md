@@ -37,7 +37,7 @@ If incorrect queries are used, the microservice will return 400 with "Invalid in
 ```
 
 ### UML Sequence Diagram
-
+![Screenshot](UMLSD.png)
 
 ## Contact
 Elliott Larsen
