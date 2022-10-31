@@ -27,10 +27,10 @@ If incorrect queries are used, the microservice will return 400 with "Invalid in
 #### Example Response
 ```JSON
 {
-    "complete_url": "https://prefix.atlassian.net/browse/project-123",
+    "complete_url": "https://johndoe.atlassian.net/browse/myproject-123",
     "data_received": {
-        "prefix": "prefix",
-        "project": "project",
+        "prefix": "johndoe",
+        "project": "myproject",
         "ticket": "123"
     }
 }
